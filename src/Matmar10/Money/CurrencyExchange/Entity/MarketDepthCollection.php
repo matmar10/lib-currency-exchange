@@ -28,6 +28,13 @@ class MarketDepthCollection implements MarketDepthCollectionInterface
      */
     protected $bids = array();
 
+    public function __construct(CurrencyPairInterface $currencyPair = null)
+    {
+        if(!is_null($currencyPair)) {
+            $this->currencyPair = $currencyPair;
+        }
+    }
+
     /**
      * {inheritDoc}
      */

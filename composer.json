@@ -1,0 +1,28 @@
+{
+    "name": "matmar10/campbx",
+    "description": "Helper classes for Currency Exchange operations",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/matmar10/lib-money"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "~3.7",
+        "matmar10/lib-money": "1.0.0"
+    },
+    "license": "Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Matthew J. Martin",
+            "email": "matthew.mar10@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Matmar10\\Money\\CurrencyExchange\\Test": "tests",
+            "Matmar10\\Money\\CurrencyExchange": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

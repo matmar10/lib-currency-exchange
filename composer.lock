@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3c18deee2ca88e610ed46ac71534b2e4",
+    "hash": "94980e3d9ef224aa53306b2118f1cbd6",
     "packages": [
         {
             "name": "guzzle/guzzle",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "e62f205c834a23e3a8c5933b1748f3336721bcc1"
+                "reference": "4e9e345e3212eb44a628a8f1a92416afe726de85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/e62f205c834a23e3a8c5933b1748f3336721bcc1",
-                "reference": "e62f205c834a23e3a8c5933b1748f3336721bcc1",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4e9e345e3212eb44a628a8f1a92416afe726de85",
+                "reference": "4e9e345e3212eb44a628a8f1a92416afe726de85",
                 "shasum": ""
             },
             "require": {
@@ -95,20 +95,20 @@
                 "rest",
                 "web service"
             ],
-            "time": "2013-10-16 00:14:18"
+            "time": "2013-11-01 22:43:11"
         },
         {
             "name": "matmar10/lib-money",
-            "version": "v1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matmar10/lib-money.git",
-                "reference": "9a4616da75df824b9c83987313634fa29709259e"
+                "reference": "1149d047b6441b3bab8fb127f99520102d8d1853"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matmar10/lib-money/zipball/9a4616da75df824b9c83987313634fa29709259e",
-                "reference": "9a4616da75df824b9c83987313634fa29709259e",
+                "url": "https://api.github.com/repos/matmar10/lib-money/zipball/1149d047b6441b3bab8fb127f99520102d8d1853",
+                "reference": "1149d047b6441b3bab8fb127f99520102d8d1853",
                 "shasum": ""
             },
             "require-dev": {
@@ -143,10 +143,10 @@
                 "validator"
             ],
             "support": {
-                "source": "https://github.com/matmar10/lib-money/tree/exchange-rate-entity-name",
+                "source": "https://github.com/matmar10/lib-money/tree/master",
                 "issues": "https://github.com/matmar10/lib-money/issues"
             },
-            "time": "2013-10-13 05:39:13"
+            "time": "2013-11-02 20:24:03"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -210,9 +210,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "matmar10/lib-money": 20
+    },
     "platform": [
 
     ],

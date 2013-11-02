@@ -14,7 +14,7 @@ use Matmar10\Money\Entity\Money;
 use Matmar10\Money\Entity\MoneyInterface;
 use PHPUnit_Framework_TestCase;
 
-class MarketDepthPriceTest extends PHPUnit_Framework_TestCase
+class MarketDepthCollectionTest extends PHPUnit_Framework_TestCase
 {
 
     public $usd;

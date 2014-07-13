@@ -1,15 +1,11 @@
 {
     "name": "matmar10/lib-currency-exchange",
     "description": "Helper classes for Currency Exchange operations",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/matmar10/lib-money"
-        }
-    ],
+    "repositories": [],
+    "version": "1.0.1",
     "require": {
         "guzzle/guzzle": "~3.7",
-        "matmar10/lib-money": "dev-master"
+        "matmar10/lib-money": "~1.0.2"
     },
     "license": "Apache License Version 2.0",
     "authors": [
